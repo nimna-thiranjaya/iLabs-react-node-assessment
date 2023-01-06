@@ -1,6 +1,6 @@
 # iLabs-react-node-assessment
 
-<h3> <a href="https://ilabs-faq-manager.netlify.app/" target="_blank">Demo application</a></h3>
+<h3> <a href="https://ilabs-faq-manager.netlify.app/" target="_blank">ILabs FAQ Manager Demo</a></h3>
 
 <h2>Functions</h2>
       <ol>
