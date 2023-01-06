@@ -114,7 +114,7 @@ const FaqManager = () => {
               <div
                 style={{
                   backgroundColor: "green",
-                  color: "white",
+                  color: "black",
                   padding: "5px",
                   borderRadius: "5px",
                   width: "80px",
@@ -127,7 +127,7 @@ const FaqManager = () => {
               <div
                 style={{
                   backgroundColor: "gray",
-                  color: "white",
+                  color: "black",
                   padding: "5px",
                   borderRadius: "5px",
                   width: "80px",
@@ -140,7 +140,7 @@ const FaqManager = () => {
               <div
                 style={{
                   backgroundColor: "red",
-                  color: "white",
+                  color: "black",
                   padding: "5px",
                   borderRadius: "5px",
                   width: "80px",
