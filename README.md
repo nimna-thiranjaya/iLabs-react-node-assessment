@@ -12,10 +12,10 @@
   
 <h2> Tools & Technologies </h2> 
       <ul>
-      <li> node Js - v(16.15.1) -> <a href="https://nodejs.org/en/" target="_blank">nodejs.org</a> </li>
-      <li> Express Js - v(4.18.1) -> <a href="https://expressjs.com/" target="_blank">expressjs.com</a></li>
+      <li> node Js - v(18.12.1) -> <a href="https://nodejs.org/en/" target="_blank">nodejs.org</a> </li>
+      <li> Express Js - v(4.18.2) -> <a href="https://expressjs.com/" target="_blank">expressjs.com</a></li>
       <li> mongoDB  -> <a href="https://www.mongodb.com/" target="_blank">mongodb.com</a> </li>
-      <li> React Js -> <a href="hhttps://reactjs.org/" target="_blank">reactjs.org/</a> </li>
+      <li> React Js -> <a href="https://reactjs.org/" target="_blank">reactjs.org</a> </li>
       <li> VS Code -> <a href="https://code.visualstudio.com/" target="_blank">visualstudio.com</a> </li>
       </ul>
   
@@ -71,4 +71,4 @@ npm install
 ```bash
 npm start
 ```
-Now you can open "http://localhost:3000/" in your browser and you the appplication.
+Now you can open "http://localhost:3000/" in your browser and use the the appplication.
