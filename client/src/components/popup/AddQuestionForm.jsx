@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import axios from "axios";
+import { categories } from "../../data/questionCategories";
 
 const AddQuestionForm = ({ onHide }) => {
   const [question, setQuestion] = useState("");
@@ -92,9 +93,11 @@ const AddQuestionForm = ({ onHide }) => {
           onChange={(e) => setCategory(e.target.value)}
         >
           <option>Select Category</option>
-          <option value="About Company">About Company</option>
-          <option value="About Projects">About Projects</option>
-          <option value="About Technologies">About Technologies</option>
+          {categories.map((category) => (
+            <option key={category.value} value={category.value}>
+              {category.label}
+            </option>
+          ))}
         </Form.Select>
         {error && (
           <Form.Text className="text-danger">{error.category}</Form.Text>
