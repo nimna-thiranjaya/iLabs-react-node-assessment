@@ -90,9 +90,6 @@ const ChangeQuestionStatus = async (req, res) => {
     //get question id from path variable
     const id = req.params.id;
 
-    //get update status from body
-    const updateData = req.body;
-
     //validate question id
     const checkQuestion = await QuestionService.questionFindByID(id);
 
@@ -102,6 +99,21 @@ const ChangeQuestionStatus = async (req, res) => {
         message: "Question not found!",
       });
     } else {
+      let updateData = "";
+
+      if (
+        checkQuestion.status === "Draft" ||
+        checkQuestion.status === "Disabled"
+      ) {
+        updateData = {
+          status: "Published",
+        };
+      } else {
+        updateData = {
+          status: "Disabled",
+        };
+      }
+
       await QuestionService.updateQuestion(id, updateData);
       return res.status(200).send({
         success: true,

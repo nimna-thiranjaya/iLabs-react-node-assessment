@@ -13,15 +13,9 @@ const questionValidation = async (req, res, next) => {
   const { error } = validation.validate(data, { abortEarly: false });
 
   if (error) {
-    const errors = [];
-
-    error.details.forEach((e) => {
-      errors.push(`${e.context.label}: ${e.message}`);
-    });
-
     return res.status(406).send({
       success: false,
-      validationErrors: errors,
+      validationErrors: error.details,
     });
   } else {
     next();

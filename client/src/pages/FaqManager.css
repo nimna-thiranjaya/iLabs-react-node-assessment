@@ -1,0 +1,66 @@
+.setBody {
+  padding: 50px;
+  background-color: #e8eaf6;
+}
+
+.faq {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq span {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 25px 0px;
+}
+
+.search-input {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #e8eaf6;
+  padding: 15px;
+  border: 1px solid #e8eaf6;
+  outline: none;
+  font-size: 14px;
+  margin-right: 25px;
+}
+
+.search-input-button {
+  width: 300px;
+  max-width: 300px;
+  border-radius: 6px;
+  background-color: #3f51b5;
+  color: white;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.table-container {
+  margin: 25px 0px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container span {
+  font-size: 14px;
+  margin: 25px 0px 0px 0px;
+}

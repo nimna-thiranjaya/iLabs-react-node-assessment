@@ -14,7 +14,7 @@ const findAllQuestions = async () => {
 };
 
 const updateQuestion = async (id, updatedQuestion) => {
-  return await Questions.findOneAndUpdate(id, updatedQuestion);
+  return await Questions.findByIdAndUpdate(id, updatedQuestion);
 };
 
 const deleteQuestionById = async (id) => {
